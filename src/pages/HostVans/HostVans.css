@@ -1,0 +1,39 @@
+.hostvans__heading {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.hostvans__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hostvans__list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #fff;
+  gap: 40px;
+  padding: 20px;
+  border-radius: 6px;
+}
+.hostvans__list > img {
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+}
+.hostavans__list-content {
+  display: grid;
+  gap: 5px;
+}
+.hostavans__list-content > h4 {
+  color: #161616;
+  font-size: 1.5rem;
+}
+.hostavans__list-content > p {
+  color: #4d4d4d;
+  font-size: 1.125rem;
+}

@@ -1,0 +1,14 @@
+.host {
+  padding: 60px;
+  max-width: 1440px;
+  margin: auto;
+}
+.host__nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.host__nav > a {
+  text-decoration: none;
+  color: #4d4d4d;
+}

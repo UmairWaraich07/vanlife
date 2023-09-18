@@ -1,0 +1,153 @@
+.vans {
+  padding: 60px;
+  max-width: 1440px;
+  margin: auto;
+  color: var(--color-dark);
+}
+.vans__topDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+}
+.vans__topDiv > h2 {
+  font-size: 2.2rem;
+}
+
+.vans__type {
+  border: none;
+  background-color: #ffead0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.vans__type:hover.simple,
+.vans__type.simple.selected {
+  background: #e17654;
+  color: white;
+}
+.vans__type:hover.luxury,
+.vans__type.luxury.selected {
+  color: white;
+  background: var(--color-dark);
+}
+.vans__type:hover.rugged,
+.vans__type.rugged.selected {
+  background: #115e59;
+  color: white;
+}
+
+.vans__filters {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.vans__clearFilters {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.vans__filter {
+  background: #ffead0;
+  padding: 4px 6px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+  transition: all 0.2s ease-in;
+  outline: none;
+  border: none;
+}
+.vans__filter > p {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.vans__filter:hover {
+  background: var(--color-dark);
+  color: white;
+}
+
+.vans__container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.vans__list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+}
+.vans__list > img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.vans__listDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vans__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+.vans__price {
+  font-weight: 500;
+  color: var(--color-dark);
+}
+.vans__price > span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Spinner */
+
+.loader {
+  height: 50vh;
+  padding: 60px;
+}
+
+.body {
+  display: grid;
+  place-content: center;
+  min-height: 70vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.spinner-container {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}
+
+.van-wheel-spinner {
+  /* position: absolute; */
+  /* width: 50px;
+  height: 50px; */
+  border: 4px solid #161616;
+  border-bottom: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

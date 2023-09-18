@@ -1,0 +1,28 @@
+.home {
+  padding: 80px 60px;
+  background: url("../../assets/hero.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 95vh;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  max-width: 1440px;
+  margin: auto;
+}
+.home__content {
+}
+
+.home__header {
+  font-size: 48px;
+}
+
+.home__content-subtitle {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 36px;
+  max-width: 620px;
+  line-height: 36px;
+}

@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--bg-footer);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  max-width: 1440px;
+  margin: auto;
+}
+.footer__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  color: var(--color-footer);
+}
+
+.footer__link {
+  text-decoration: none;
+  color: var(--color-footer);
+}

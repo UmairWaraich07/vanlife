@@ -1,0 +1,15 @@
+.error {
+  padding: 60px;
+  max-width: 1440px;
+  margin: auto;
+  height: 80vh;
+  display: grid;
+  place-content: center;
+}
+.error__wrapper {
+  text-align: center;
+}
+.error__wrapper > h2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,9 @@
+.hostvanDetails__photos {
+  margin-block: 20px;
+}
+.hostvanDetails__photos > img {
+  border-radius: 4px;
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+}
